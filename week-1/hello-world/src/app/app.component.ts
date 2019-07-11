@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  app.component.ts
+; Author: Professor Krasso
+; Date:   9 July 2019
+; Modified By: Jordan Hennessy
+; Description: Hello World
+;===========================================
+*/
 import { Component } from '@angular/core';
 
 @Component({
