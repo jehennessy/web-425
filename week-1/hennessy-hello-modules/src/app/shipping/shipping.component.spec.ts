@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  shipping.component.spec.ts
+; Author: Professor Krasso
+; Date:   14 July 2019
+; Modified By: Jordan Hennessy
+; Description: Assignment 1.5 Modules
+;===========================================
+*/
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ShippingComponent } from './shipping.component';
