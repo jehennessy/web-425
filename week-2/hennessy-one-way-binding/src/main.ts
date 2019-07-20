@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  main.ts
+; Author: Professor Krasso
+; Date:   20 July 2019
+; Modified By: Jordan Hennessy
+; Description: Exercise 2.2 One-Way Binding
+;===========================================
+*/
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
