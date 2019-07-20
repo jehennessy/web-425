@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  polyfills.ts
+; Author: Professor Krasso
+; Date:   20 July 2019
+; Modified By: Jordan Hennessy
+; Description: Exercise 2.2 One-Way Binding
+;===========================================
+*/
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.

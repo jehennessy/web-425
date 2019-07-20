@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  environment.ts
+; Author: Professor Krasso
+; Date:   20 July 2019
+; Modified By: Jordan Hennessy
+; Description: Exercise 2.2 One-Way Binding
+;===========================================
+*/
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.

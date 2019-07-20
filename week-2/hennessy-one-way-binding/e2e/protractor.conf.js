@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: protractor.conf.js
+; Author: Professor Krasso
+; Date:   20 July 2019
+; Modified By: Jordan Hennessy
+; Description: Exercise 2.2 One-Way Binding
+;===========================================
+*/
 // @ts-check
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts
