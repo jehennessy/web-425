@@ -1,0 +1,36 @@
+<mat-toolbar class="menu" role="header" color="primary">
+  <mat-toolbar-row>
+    <button mat-button class="mat-button">
+      <span style="margin-left: 5px !important;">Home</span>
+    </button>
+    <button mat-button class="mat-button">
+      About
+    </button>
+    <button mat-button class="mat-button">
+      Contact Us
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="parent" fxLayout="row">
+  <div class="sideNav" fxFlex="30%">
+    <mat-sidenav-container >
+      <mat-sidenav mode="side" opened>
+        <mat-toolbar>
+          <mat-toolbar-row>
+            <h2>Sidebar Menu</h2>
+          </mat-toolbar-row>
+        </mat-toolbar>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <div style="height: 88vh;">
+        </div>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+  <div class="mainContent" fxFlex="70%">
+    AppComponent received: {{ priceQuote?.stockSymbol }} {{ priceQuote?.lastPrice | currency: 'USD' }}
+    <app-price-quote class="message" (lastPrice)="priceQuoteHandler($event)"></app-price-quote>
+  </div>
+</div>
+
