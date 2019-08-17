@@ -1,0 +1,34 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+}
+
+.parent {
+  padding-top: 4em;
+}
+
+.mainContent {
+  padding: 4em;
+}
+
+.input-box, .message {
+  display: block;
+  margin: auto;
+}
+
+.message {
+  text-align: center;
+  font-size: 28px;
+  padding: 2em 1em;
+  margin-top: 2em;
+  color: #fff;
+}
+
+.input-box {
+  padding: 1em;
+  width: 50%;
+}
+
