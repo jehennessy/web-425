@@ -1,0 +1,35 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+}
+
+.main-body {
+  padding-top: 4em;
+}
+
+.mainContent {
+  padding: 4em;
+}
+
+.form-label, .form-btn {
+  margin: 1em;
+  display: inline-block;
+}
+
+
+
+form{
+  padding: 1em;
+}
+
+.error {
+  color: red;
+}
+
+.hasError{
+  border: 1px solid red !important;
+}
+
