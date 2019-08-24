@@ -1,0 +1,27 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+}
+
+.main-body {
+  padding-top: 4em;
+}
+
+.mainContent {
+  padding: 4em;
+}
+
+.form-label {
+  margin: 1em auto;
+}
+
+.form-btn {
+  float: right;
+}
+
+form{
+  padding: 1em;
+}
