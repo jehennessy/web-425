@@ -1,0 +1,19 @@
+{"invoice": {
+  "_id": 129,
+  "service": {
+    "_id": 283,
+    "password": true,
+    "spyware": true,
+    "ram": false,
+    "install": false,
+    "tune": false,
+    "keyboard_clean": false,
+    "disk_clean": false 
+  },
+  "fee": {
+    "_id": 122,
+    "parts": "0",
+    "labor": "50.00"
+  },
+  "total": "189.98"
+}}
