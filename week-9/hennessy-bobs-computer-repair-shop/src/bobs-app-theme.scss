@@ -1,0 +1,16 @@
+@import '../node_modules/@angular/material/theming';
+
+@include mat-core();
+
+
+$bob-app-primary: mat-palette($mat-indigo);
+$bob-app-accent:  mat-palette($mat-blue, A200, A100, 900);
+
+
+$bob-app-warn:    mat-palette($mat-red);
+
+
+$bob-app-theme: mat-dark-theme($bob-app-primary, $bob-app-accent, $bob-app-warn);
+
+
+@include angular-material-theme($bob-app-theme);

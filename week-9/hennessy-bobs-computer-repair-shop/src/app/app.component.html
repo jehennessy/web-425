@@ -1,0 +1,76 @@
+<mat-toolbar class="menu" role="header" color="primary">
+  <mat-toolbar-row>
+    <button mat-button class="mat-button">
+      <span style="margin-left: 5px !important;">Home</span>
+    </button>
+    <button mat-button class="mat-button">
+      About
+    </button>
+    <button mat-button class="mat-button">
+      Contact Us
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="title-container">
+  <h1>Bob's Computer Repair Shop</h1>
+</div>
+
+<div class="main-body">
+  <mat-card class="form-card mat-elevation-z8" flexLayout="row">
+    <mat-card-title class="form-title">New Order</mat-card-title>
+
+    <form #f="ngForm" (ngSubmit)="onSubmit(f.value); f.reset()" flexLayout="row">
+      <mat-card-content ngModelGroup="checkGroup">
+
+        <div class="services-container" fxFlex="40">
+          <h2>Services</h2>
+
+          <div>
+            <mat-checkbox name="password" ngModel >Password Reset ($39.99)</mat-checkbox>
+            <br />
+            <mat-checkbox name="spyware" ngModel >Spyware Removal ($99.99)</mat-checkbox>
+            <br />
+            <mat-checkbox name="ram" ngModel >RAM Upgrade ($129.99)</mat-checkbox>
+            <br />
+            <mat-checkbox name="software" ngModel >Software Installation ($49.99)</mat-checkbox>
+            <br />
+            <mat-checkbox name="tune" ngModel >Tune-up ($89.99)</mat-checkbox>
+            <br />
+            <mat-checkbox name="cleaning" ngModel >Keyboard Cleaning ($45.00)</mat-checkbox>
+            <br />
+            <mat-checkbox name="disk" ngModel >Disk Clean-up ($149.99)</mat-checkbox>
+            <br />
+          </div>
+        </div>
+
+        <div class="fees-container" fxFlex="60">
+          <h2>Standard Fees</h2>
+
+          <div>
+            <mat-form-field>
+              <input type="text" matInput name="parts" placeholder="Enter Value..." ngModel>
+            </mat-form-field>
+          </div>
+
+          <div>
+            <mat-form-field>
+              <input type="text" matInput name="labor" placeholder="Hours of Labor @ $50.00..." ngModel>
+            </mat-form-field>
+          </div>
+
+        </div>
+
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-raised-button color="warn" type="reset">Cancel</button>
+        <button mat-raised-button color="primary" type="submit">Submit</button>
+      </mat-card-actions>
+    </form>
+
+  </mat-card>
+
+
+
+</div>
